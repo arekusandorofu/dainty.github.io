@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dainty Shop</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html"><img src="assets/svg/logo.svg" alt="logo" class="logo"></a>
+                <nav class="header-nav">
+                    <a href="index.html" class="nav-link">Главная</a>
+                    <a href="shop.html" class="nav-link">Товары</a>
+                    <form action="#" class="header-form">
+                        <input type="text" placeholder="Кресла, диваны, стулья..." class="header-input">
+                        <button type="submit" class="header-btn"><img src="assets/svg/search.svg" alt="search"
+                                class="header-input-search"></button>
+                    </form>
+                </nav>
+                <div id="burger" class="burger">
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="section-menu">
+            <div id="menu-bg" class="menu-background hidden">
+                <div class="container">
+                    <div id="menu" class="menu hidden">
+                        <div class="menu-cross">
+                            <p class="menu-title">Меню</p>
+                            <img id="cross" src="assets/svg/cross.svg" alt="">
+                        </div>
+                        <nav class="header-menu-nav">
+                            <form action="#" class="header-form header-menu-form">
+                                <input type="text" placeholder="Кресла, диваны, стулья..." class="header-input">
+                                <button type="submit" class="header-btn"><img src="assets/svg/search.svg" alt="search"
+                                        class="header-input-search"></button>
+                            </form>
+                            <a href="index.html" class="nav-link nav-link-menu">Главная</a>
+                            <a href="shop.html" class="nav-link nav-link-menu">Товары</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="start-shop" class="container">
+            <div class="">
+                <p class="up-text">Новая коллекция 2023</p>
+                <h1 class="big-block-title shop-title">Создай уникальный интерьер</h1>
+                <p class="big-block-desc">Большой выбор мебели, разных размеров и разных цветов. Каждый найдет себе то,
+                    что хочет</p>
+                <a href="single.html" class="btn">Смотреть все</a>
+            </div>
+            <img src="assets/img/start-shop.png" alt="bg" class="start-bg shop-bg">
+        </section>
+        <section id="shop">
+            <div class="container">
+                <div class="shop">
+                    <div class="shop-left">
+                        <div class="shop-cards">
+                            <div class="shop-card" data-furniture="sofa">
+                                <img src="assets/img/f1.png" alt="furniture" class="shop-card-img">
+                                <div class="shop-card-content">
+                                    <h4 class="shop-card-title">Диван “Весна”</h4>
+                                    <p class="shop-card-desc">9 999 ₽</p>
+                                    <a href="single.html" class="btn shop-card-btn">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="shop-card" data-furniture="armchair">
+                                <img src="assets/img/f2.png" alt="furniture" class="shop-card-img">
+                                <div class="shop-card-content">
+                                    <h4 class="shop-card-title">Кресло “Лето”</h4>
+                                    <p class="shop-card-desc">9 999 ₽</p>
+                                    <a href="single.html" class="btn shop-card-btn">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="shop-card" data-furniture="sofa">
+                                <img src="assets/img/f3.png" alt="furniture" class="shop-card-img">
+                                <div class="shop-card-content">
+                                    <h4 class="shop-card-title">Диван “Олив”</h4>
+                                    <p class="shop-card-desc">9 999 ₽</p>
+                                    <a href="single.html" class="btn shop-card-btn">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="shop-card" data-furniture="armchair">
+                                <img src="assets/img/f4.png" alt="furniture" class="shop-card-img">
+                                <div class="shop-card-content">
+                                    <h4 class="shop-card-title">Кресло “Дачник”</h4>
+                                    <p class="shop-card-desc">9 999 ₽</p>
+                                    <a href="single.html" class="btn shop-card-btn">Подробнее</a>
+                                </div>
+                            </div>
+
+                            <div class="shop-card" data-furniture="sofa">
+                                <img src="assets/img/f5.png" alt="furniture" class="shop-card-img">
+                                <div class="shop-card-content">
+                                    <h4 class="shop-card-title">Диван “Уют”</h4>
+                                    <p class="shop-card-desc">9 999 ₽</p>
+                                    <a href="single.html" class="btn shop-card-btn">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="shop-card" data-furniture="chair">
+                                <img src="assets/img/f6.png" alt="furniture" class="shop-card-img">
+                                <div class="shop-card-content">
+                                    <h4 class="shop-card-title">Стул “Обычный”</h4>
+                                    <p class="shop-card-desc">9 999 ₽</p>
+                                    <a href="single.html" class="btn shop-card-btn">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pagination">
+                            <p class="page page-active">01</p>
+                            <p class="page">02</p>
+                            <p class="page">03</p>
+                        </div>
+                    </div>
+                    <div class="shop-right">
+                        <h4 class="sidebar-title">Фильтрация</h4>
+                        <div class="sidebar-content">
+                            <span class="filter-btn filter-all filter-btn-active" data-furniture="all">Все
+                                категории</span>
+                            <div class="sidebar-filtration">
+                                <p class="filter-btn" data-furniture="sofa">Диваны</p>
+                                <p class="filter-btn" data-furniture="armchair">Кресла</p>
+                                <p class="filter-btn" data-furniture="chair">Стулья</p>
+                            </div>
+                            <div class="sidebar-price">
+                                <input type="text" placeholder="0 ₽" class="filter-price">
+                                <div class="tire"></div>
+                                <input type="text" placeholder="19 999 ₽" class="filter-price">
+                            </div>
+                            <div style="display: flex; justify-content: center;">
+                                <span class="filter-btn filter-all" data-furniture="all"
+                                    style="background-color: transparent;">Cбросить фильтры</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="filter-mobile-btn" class="filter-mobile-btn"><img src="assets/svg/filters.svg"
+                            alt="filters" class="filters-img">Фильтры</div>
+                    <div id="filter-mobile-block" class="filter-mobile hidden">
+                        <div class="shop-right db">
+                            <h4 class="sidebar-title">Фильтрация <img src="assets/svg/cross.svg" alt="cross"
+                                    class="filter-cross" id="filter-cross">
+                            </h4>
+                            <div class="sidebar-content">
+                                <span class="filter-btn filter-all filter-btn-active" data-furniture="all">Все
+                                    категории</span>
+                                <div class="sidebar-filtration">
+                                    <p class="filter-btn" data-furniture="sofa">Диваны</p>
+                                    <p class="filter-btn" data-furniture="armchair">Кресла</p>
+                                    <p class="filter-btn" data-furniture="chair">Стулья</p>
+                                </div>
+                                <div class="sidebar-price">
+                                    <input type="text" placeholder="0 ₽" class="filter-price">
+                                    <div class="tire"></div>
+                                    <input type="text" placeholder="19 999 ₽" class="filter-price">
+                                </div>
+                                <div>
+                                    <span class="filter-btn filter-all" data-furniture="all"
+                                        style="background-color: transparent;">Cбросить фильтры</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-links">
+                    <a href="index.html" class="nav-link">Главная</a>
+                    <a href="shop.html" class="nav-link">Товары</a>
+                </div>
+                <a href="index.html"><img src="assets/svg/logo.svg" alt="logo" class="footer-logo"></a>
+                <div class="footer-media">
+                    <a href="https://www.instagram.com/"><img src="assets/svg/instagram.svg" alt="icon"
+                            class="footer-img"></a>
+                    <a href="https://vk.com/"><img src="assets/svg/vk.svg" alt="icon"
+                            class="footer-img footer-img-vk"></a>
+                    <a href="https://www.youtube.com/"><img src="assets/svg/youtube.svg" alt="icon"
+                            class="footer-img"></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-bottom-text">© Dainty, 2023</p>
+                <p class="footer-bottom-text">ООО «Danity», ОГРН: 1043257654812</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/header.js"></script>
+    <script src="assets/shop.js"></script>
+</body>
+
+</html>
