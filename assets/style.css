@@ -820,6 +820,7 @@ footer {
 
 @media (max-width: 1439px) {
 
+
     .container {
         max-width: calc(390px + (1300 - 390) * ((100vw - 390px) / (var(--container) - 390)));
         margin: auto;
@@ -1111,6 +1112,27 @@ footer {
 }
 
 @media (max-width: 960px) {
+    .big-category-img {
+        transform: none;
+        transition: none;
+    }
+
+    .big-category:hover .big-category-img {
+        transform: none;
+    }
+
+    .small-category:hover .small-category-img {
+        transform: none;
+    }
+
+    .small-category-img {
+        width: calc(30px + (152 - 10) * ((100vw - 390px) / (var(--container) - 390))) !important;
+    }
+
+    .small-category-img {
+        transition: none;
+    }
+
     .header-nav {
         display: none;
     }
@@ -1152,11 +1174,8 @@ footer {
     }
 
     .big-category-img {
-        width: calc(170px + (440 - 170) * ((100vw - 390px)/ (var(--container) - 390)));
-    }
-
-    .big-category:hover .big-category-img {
-        transform: scale(1.05) translateX(calc(10px + (20 - 10) * ((100vw - 390px)/ (var(--container) - 390))));
+        width: 100%;
+        /* transform: translateX(calc(40px + (90 - 40) * ((100vw - 390px) / (var(--container) - 390)))); */
     }
 
     .shop-right {
@@ -1171,6 +1190,18 @@ footer {
 @media (max-width: 760px) {
     .start-bg {
         display: none;
+    }
+
+    .small-category-img {
+        width: calc(30px + (152 - 10) * ((100vw - 390px) / (var(--container) - 390))) !important;
+    }
+
+    .small-category-img {
+        transition: none;
+    }
+
+    .small-category:hover .small-category-img {
+        transform: none;
     }
 
     .start-content {
@@ -1221,6 +1252,16 @@ footer {
         margin: auto;
     }
 
+    .big-category-img {
+        width: 90%;
+        padding-left: calc(30px + (50 - 30) * ((100vw - 390px) / (var(--container) - 390)));
+    }
+
+    .big-category:hover .big-category-img {
+        transform: none;
+        transition: none;
+    }
+
     .small-categories {
         margin-top: 20px;
         justify-content: center;
@@ -1228,6 +1269,20 @@ footer {
 
     .small-category {
         width: 100%;
+        height: unset;
+        padding: 40px 60px 45px 40px;
     }
 
+    .small-category-price {
+        margin-bottom: 40px;
+    }
+
+    .small-category-img {
+        width: 35% !important;
+    }
+
+    .btn-small {
+        font-size: calc(12px + (24 - 12) * ((100vw - 390px) / (var(--container) - 390)));
+        padding: calc(10px + (20 - 10) * ((100vw - 390px) / (var(--container) - 390))) calc(15px + (30 - 15) * ((100vw - 390px) / (var(--container) - 390)));
+    }
 }
