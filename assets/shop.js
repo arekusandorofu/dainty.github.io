@@ -36,6 +36,6 @@ const filterBtn = document.querySelectorAll('.filter-btn');
 
 filterBtn.forEach(btn => {
     btn.addEventListener('click', () => {
-        filterMobileBlock.classList.toggle('hidden');
+        filterMobileBlock.classList.add('hidden');
     })
 })
