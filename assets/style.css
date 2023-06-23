@@ -808,11 +808,11 @@ footer {
 
 @keyframes Banner {
     0% {
-        transform: translateX(200px);
+        transform: translateY(100px);
     }
 
     100% {
-        transform: translateX(0);
+        transform: translateY(0);
     }
 }
 
@@ -895,7 +895,7 @@ footer {
     }
 
     .title {
-        font-size: calc(18px + (36 - 18) * ((100vw - 390px) / (var(--container) - 390)));
+        font-size: calc(20px + (36 - 20) * ((100vw - 390px) / (var(--container) - 390)));
     }
 
     .added-cards {
@@ -1012,7 +1012,7 @@ footer {
     }
 
     .footer-img-vk {
-        width: calc(20px + (30 - 20) * ((100vw - 390px)/ (var(--container) - 390)));
+        width: calc(18px + (28 - 18) * ((100vw - 390px)/ (var(--container) - 390)));
     }
 
     .footer-bottom-text {
@@ -1227,7 +1227,7 @@ footer {
     }
 
     .btn {
-        font-size: calc(16px + (20 - 16) * ((100vw - 390px) / (var(--container) - 390)));
+        font-size: calc(12px + (20 - 12) * ((100vw - 390px) / (var(--container) - 390)));
         padding: calc(10px + (15 - 10) * ((100vw - 390px) / (var(--container) - 390))) calc(20px + (45 - 20) * ((100vw - 390px) / (var(--container) - 390)));
         /* font-size: 20px;
         padding: 15px 45px; */
@@ -1270,8 +1270,11 @@ footer {
     .small-category {
         width: 100%;
         height: unset;
-        padding: 40px 60px 45px 40px;
+        /* padding: 40px 60px 45px 40px; */
+        padding: calc(20px + (40 - 20) * ((100vw - 390px) / (var(--container) - 390))) calc(30px + (60 - 30) * ((100vw - 390px) / (var(--container) - 390))) calc(23px + (45 - 23) * ((100vw - 390px) / (var(--container) - 390))) calc(20px + (40 - 20) * ((100vw - 390px) / (var(--container) - 390)));
     }
+
+    .small-category-title {}
 
     .small-category-price {
         margin-bottom: 40px;
@@ -1284,5 +1287,72 @@ footer {
     .btn-small {
         font-size: calc(12px + (24 - 12) * ((100vw - 390px) / (var(--container) - 390)));
         padding: calc(10px + (20 - 10) * ((100vw - 390px) / (var(--container) - 390))) calc(15px + (30 - 15) * ((100vw - 390px) / (var(--container) - 390)));
+    }
+
+    #form {
+        justify-content: center;
+    }
+
+    .form-input {
+        width: calc(240px + (270 - 240) * ((100vw - 390px) / (var(--container) - 390)));
+        height: calc(45px + (50 - 45) * ((100vw - 390px) / (var(--container) - 390)));
+
+        padding: calc(9px + (12 - 9) * ((100vw - 390px) / (var(--container) - 390))) calc(13px + (25 - 13) * ((100vw - 390px) / (var(--container) - 390)));
+        font-size: calc(12px + (20 - 12) * ((100vw - 390px) / (var(--container) - 390)));
+        margin: calc(20px + (40 - 20) * ((100vw - 390px) / (var(--container) - 390))) auto calc(15px + (30 - 15) * ((100vw - 390px) / (var(--container) - 390))) auto;
+    }
+
+    .form-img-first {
+        display: none;
+    }
+
+    .input-title {
+        margin: auto;
+    }
+
+    .banner-title {
+        width: 100%;
+        font-size: calc(32px + (48 - 32) * ((100vw - 390px) / (var(--container) - 390)));
+    }
+
+    #map {
+        flex-direction: column;
+    }
+
+    .map-img {
+        width: calc(360px + (760 - 360) * ((100vw - 390px) / (var(--container) - 390)));
+        margin-bottom: 50px;
+    }
+
+    .map-title {
+        text-align: center;
+        font-size: calc(21px + (36 - 21) * ((100vw - 390px)/ (var(--container) - 390)));
+        width: calc(250px + (400 - 250) * ((100vw - 390px)/ (var(--container) - 390)));
+
+    }
+
+    .map-desc {
+        font-size: calc(12px + (18 - 12) * ((100vw - 390px)/ (var(--container) - 390)));
+        width: calc(240px + (250 - 240) * ((100vw - 390px)/ (var(--container) - 390)));
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .form-btn {
+        /* margin-left: calc(105px + (110 - 105) * ((100vw - 390px)/ (var(--container) - 390))); */
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .footer-links {
+        gap: calc(15px + (30 - 15) * ((100vw - 390px)/ (var(--container) - 390)));
+    }
+
+    .footer-media {
+        gap: calc(12px + (25 - 12) * ((100vw - 390px)/ (var(--container) - 390)));
+    }
+
+    .footer-bottom-text {
+        font-size: calc(7px + (18 - 7) * ((100vw - 390px)/ (var(--container) - 390)));
     }
 }
