@@ -1404,7 +1404,7 @@ footer {
     }
 
     .shop-card-title {
-        font-size: calc(16px + (24 - 16) * ((100vw - 390px)/ (var(--container) - 390)));
+        font-size: calc(14px + (24 - 14) * ((100vw - 390px)/ (var(--container) - 390)));
     }
 
     .shop-card-desc {
