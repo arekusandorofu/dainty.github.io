@@ -1245,6 +1245,14 @@ footer {
         font-size: calc(16px + (26 - 16) * ((100vw - 390px) / (var(--container) - 390)));
     }
 
+    /* .single-stats {
+        width: calc(220px + (500 - 200) * ((100vw - 390px) / (var(--container) - 390)));
+    }
+
+    .single-part {
+        width: 100%;
+    } */
+
     .start-bg {
         display: none;
     }
@@ -1482,7 +1490,31 @@ footer {
     }
 
     .single-title {
-        font-size: calc(20px + (48 - 20) * ((100vw - 390px)/ (var(--container) - 390)));
-        margin-bottom: calc(10px + (30 - 10) * ((100vw - 390px)/ (var(--container) - 390)));
+        font-size: calc(22px + (48 - 22) * ((100vw - 390px)/ (var(--container) - 390)));
+        margin-bottom: calc(12px + (30 - 12) * ((100vw - 390px)/ (var(--container) - 390)));
+    }
+
+    .single-stats,
+    .single-desc {
+        width: 100%;
+        font-size: calc(12px + (20 - 12) * ((100vw - 390px)/ (var(--container) - 390)));
+        margin-bottom: calc(12px + (30 - 12) * ((100vw - 390px)/ (var(--container) - 390)));
+    }
+
+    .single-desc {
+        margin-bottom: calc(22px + (40 - 22) * ((100vw - 390px)/ (var(--container) - 390)));
+    }
+
+    .single-price {
+        font-size: calc(20px + (36 - 20) * ((100vw - 390px)/ (var(--container) - 390)));
+    }
+
+    .single-btn {
+        font-size: calc(14px + (20 - 14) * ((100vw - 390px) / (var(--container) - 390)));
+        padding: calc(12px + (15 - 12) * ((100vw - 390px) / (var(--container) - 390))) calc(25px + (45 - 25) * ((100vw - 390px) / (var(--container) - 390)));
+    }
+
+    .single-part {
+        width: 100%;
     }
 }
