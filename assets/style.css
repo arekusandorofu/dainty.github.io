@@ -100,7 +100,7 @@ header {
     z-index: 2;
     background-color: var(--white-color);
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-    padding: 50px;
+    padding: 30px;
     border-radius: var(--border-five) 0 0 var(--border-five);
     right: 0;
 }
@@ -1083,7 +1083,7 @@ footer {
     }
 
     .single-stats {
-        width: 500px;
+        max-width: 500px !important;
     }
 
     .single-stats,
@@ -1217,6 +1217,34 @@ footer {
 }
 
 @media (max-width: 760px) {
+    .header-input {
+        width: calc(225px + (420 - 225) * ((100vw - 390px) / (var(--container) - 390)));
+        height: calc(40px + (60 - 40) * ((100vw - 390px) / (var(--container) - 390)));
+        padding: 0 calc(25px + (50 - 25) * ((100vw - 390px) / (var(--container) - 390))) 0 calc(12px + (25 - 12) * ((100vw - 390px) / (var(--container) - 390)));
+        font-size: calc(12px + (18 - 12) * ((100vw - 390px) / (var(--container) - 390)));
+    }
+
+    .header-input-search {
+        width: calc(18px + (25 - 18) * ((100vw - 390px) / (var(--container) - 390)));
+    }
+
+    #start-shop {
+        margin-top: calc(80px + (150 - 80) * ((100vw - 390px) / (var(--container) - 390)));
+        margin-bottom: calc(125px + (250 - 125) * ((100vw - 390px) / (var(--container) - 390)));
+    }
+
+    .shop-cards {
+        margin-bottom: calc(50px + (100 - 50) * ((100vw - 390px) / (var(--container) - 390)));
+    }
+
+    .pagination {
+        margin-bottom: calc(70px + (150 - 70) * ((100vw - 390px) / (var(--container) - 390)));
+    }
+
+    .nav-link-menu {
+        font-size: calc(16px + (26 - 16) * ((100vw - 390px) / (var(--container) - 390)));
+    }
+
     .start-bg {
         display: none;
     }
@@ -1233,10 +1261,15 @@ footer {
         transform: none;
     }
 
+    #start {
+        padding-top: calc(120px + (170 - 120) * ((100vw - 390px) / (var(--container) - 390)));
+    }
+
     .start-content {
         position: relative;
         text-align: center;
         padding-left: 0;
+
     }
 
     .up-text {
@@ -1263,7 +1296,7 @@ footer {
     }
 
     .added-img {
-        width: calc(165px + (250 - 165) * ((100vw - 390px) / (var(--container) - 390)));
+        width: calc(145px + (250 - 145) * ((100vw - 390px) / (var(--container) - 390)));
     }
 
     #categories {
@@ -1299,7 +1332,7 @@ footer {
     }
 
     .small-category-price {
-        margin-bottom: 40px;
+        margin-bottom: calc(20px + (80 - 20) * ((100vw - 390px) / (var(--container) - 390)));
     }
 
     .small-category-img {
