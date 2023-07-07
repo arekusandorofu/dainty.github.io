@@ -712,6 +712,11 @@ footer {
 /* SHOP PAGE -- SHOP SECTION -- END*/
 
 /* SINGLE PAGE -- SINGLE SECTION -- START*/
+#mobile-single {}
+
+#single {
+    display: none;
+}
 
 .single {
     display: flex;
@@ -1121,6 +1126,10 @@ footer {
         transition: none;
     }
 
+    #mobile-single {
+        display: block;
+    }
+
     .big-category:hover .big-category-img {
         transform: none;
     }
@@ -1176,9 +1185,9 @@ footer {
         margin-bottom: 40px;
     }
 
-    #mobile-single {
+    /* #mobile-single {
         display: none;
-    }
+    } */
 
     .sidebar-title {
         display: flex;
